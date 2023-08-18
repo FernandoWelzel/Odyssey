@@ -9,28 +9,28 @@ This project comprises the a simple fault-tollerant RISC-V processor for the use
 # Planning
 
 - [ ] Understand basicaly how it works
--     [ ] Process architecture
--         [ ] Fetch
--         [ ] Decode
--         [ ] ALU
--         [ ] Registe file
--         [ ] LSU (Load-Store-Unit)
--     [ ] Error correction architecture
--         [ ] Encoder and decoder
--         [ ] TMR
--     [ ] RISC-V ISA
--     [ ] OpenSource EDA tools
--         [ ] Simulation
--             [ ] Icarus Verilog
--         [ ] Synthesis
--             [ ] Yosis
--         [ ] P&R
+    - [ ] Process architecture
+        - [ ] Fetch
+        - [ ] Decode
+        - [ ] ALU
+        - [ ] Registe file
+        - [ ] LSU (Load-Store-Unit)
+    - [ ] Error correction architecture
+        - [ ] Encoder and decoder
+        - [ ] TMR
+    - [ ] RISC-V ISA
+    - [ ] OpenSource EDA tools
+        - [ ] Simulation
+            - [ ] Icarus Verilog
+        - [ ] Synthesis
+            - [ ] Yosis
+        - [ ] P&R
 
 - [ ] Decision phase
--     [ ] # bits
--     [ ] Size of register file
--     [ ] Number of instructions
--         [ ] Which instructions
+    - [ ] # bits
+    - [ ] Size of register file
+    - [ ] Number of instructions
+        - [ ] Which instructions
 
 Tools and project organization:
 
