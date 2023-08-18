@@ -19,12 +19,23 @@ This project comprises the a simple fault-tollerant RISC-V processor for the use
         [ ] Encoder and decoder
         [ ] TMR
     [ ] RISC-V ISA
+    [ ] OpenSource EDA tools
+        [ ] Simulation
+            [ ] Icarus Verilog
+        [ ] Synthesis
+            [ ] Yosis
+        [ ] P&R
 
 [ ] Decision phase
     [ ] # bits
     [ ] Size of register file
     [ ] Number of instructions
         [ ] Which instructions
+
+Tools and project organization:
+    - I would like the project to be well organized with everything that I have learned until the moment. I believe it would be in my interest if I tried to make the project compatible with Open source EDA tools. The problem is that I don't know which tools to use really. So to start it I would need to learn which tools to use. I believe I should do that before starting the project.
+    - Maybe it would be wise to set everything up in a docker container for things to be organized.
+    - Another question is if REALLY be using SystemVerilog for this project (since I'm starting to hate it)
 
 # Study
 
@@ -49,3 +60,4 @@ RISC-V ISA:
 # Work
 
 17/08/2023 - 2:03 - Started project. Studied about the RISC-V ISA. Most of the time not computed.
+18/08/2023 - 1:00 - Created a template repository for SystemVerilog based projects. Tough about how to continue the project using OpenSource EDA tools.

@@ -2,16 +2,23 @@
 #                    Makefile
 #
 #  Designer: Fernando WELZEL
-#  Description:
-#    - rtl_sim: Make and executes all testbenches
 # ================================================== #
 
 # ================= CONFIGURATION ================== #
-include config.mk
+# Folders definitions
+SRC_DIR  ?= ./src
+WORK_DIR ?= ./work
 
-# ================== TARGETS ======================= #
-rtl_sim: $(VSIM_WORK_DIR)
+# Getting folders for compilation
+SRC_FOLDERS   := $(wildcard $(SRC)/*/)
+BENCH_FOLDERS := $(wildcard $(BENCH)/*/)
 
-# ================== RTL_SIM ======================= #
-$(VSIM_WORK_DIR): $(SRC_DIR)
- 	mkdir $(VSIM_WORK_DIR)
+# =================== TARGETS ===================== #
+rtl_sim: $(SIM_WORK_DIR)
+
+# ================ RTL SIMULATION ================= #
+$(WORK_DIR): #TODO: Create basic simulation functions
+
+# =================== CLEAN ======================== #
+clean:
+	rm -r $(WORK_DIR)
