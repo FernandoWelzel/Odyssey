@@ -37,6 +37,20 @@ Tools and project organization:
 - I would like the project to be well organized with everything that I have learned until the moment. I believe it would be in my interest if I tried to make the project compatible with Open source EDA tools. The problem is that I don't know which tools to use really. So to start it I would need to learn which tools to use. I believe I should do that before starting the project.
 - Maybe it would be wise to set everything up in a docker container for things to be organized.
 - Another question is if REALLY be using SystemVerilog for this project (since I'm starting to hate it)
+- I think I should put a time limit for how much I can spend in each part of the developing process. The decision part shouldn't be that long.
+- Another idea would be to make the processor compatible with FPGAs, buy one and test if it works.
+- IDEA: It would be cool to add to the README a script that runs all the testbenches before pushing and updates the number of tests that are passing and which ones aren't.
+
+
+OpenROAD:
+- The OpenROAD project appears to be a viable open source solution for all my current aims with this project. The flow can be carefully seen in their github page. I think I will try to understand it and see how it works.
+- The flow uses Docker to easily build the work enviromment which I found very interesting and good. Unfortunatly, I don't have docker installed right now in my machine and it would take about a few hours to download it in the trains internet. I can leave it for latter.
+
+Distribution of time in each part:
+- Planning and organization + Enviromment setup: 8 hours
+- RTL implementation: 12 hours
+- Simulations: 12 hours
+- Trouble-shooting: 6 hours
 
 # Study
 
@@ -58,5 +72,18 @@ RISC-V ISA: STOPPED at page 26 !!!
 
 # Work
 
+Planning:
+
 - 17/08/2023 - 2:03 - Started project. Studied about the RISC-V ISA. Most of the time not computed.
-- 18/08/2023 - 1:00 - Created a template repository for SystemVerilog based projects. Tough about how to continue the project using OpenSource EDA tools.
+- 18/08/2023 - 1:13 - Created a template repository for SystemVerilog based projects. Tough about how to continue the project using OpenSource EDA tools. Formated a few things in the end of the day.
+- 20/08/2023 - 0:57 - Started to take a look into prebuild enviromments for chip design. Found openROAD, started to see how it works.
+- 22/08/2023 - 1:20 - Took a look at the OpenROAD project more closely and tried to clone it in my PC. I found out that I should be probably cloning the OpenLane project instead since the OpenROAD apears to be a less used repository. I ended up cloning OpenLane and taking a closer look at it. Fantastic!!!
+
+# Setting up
+
+1. You will have to have *Docker* installed in your machine. This program should be available for not root users.
+2. Clone this repository using:
+```
+$ git clone https://github.com/FernandoWelzel/Odyssey.git
+```
+3. Enter the directory and run *make*.
